@@ -151,11 +151,11 @@ inputs:
     required: false
     description:
       '用于简单任务的模型，如总结文件差异。'
-    default: 'qwq-32b-preview'
+    default: 'qwen-plus'
   openai_heavy_model:
     required: false
     description: '用于复杂任务的模型，如代码审查。'
-    default: 'qwq-32b-preview'
+    default: 'qwen-max'
   openai_model_temperature:
     required: false
     description: '模型的温度参数'
